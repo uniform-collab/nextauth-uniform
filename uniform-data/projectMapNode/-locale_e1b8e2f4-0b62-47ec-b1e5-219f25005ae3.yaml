@@ -1,0 +1,10 @@
+id: e1b8e2f4-0b62-47ec-b1e5-219f25005ae3
+name: Locale
+order: 500
+path: /:locale
+type: composition
+pathSegment: ':locale'
+data:
+  previewValue: ''
+compositionId: e2f6c530-1280-43b4-adfc-ad5b8b2f90f2
+projectMapId: 6b47f572-7ff6-47c0-9890-0492a52eac7a

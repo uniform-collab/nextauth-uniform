@@ -1,0 +1,46 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: accessDenied
+name: Access Denied
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    typeConfig:
+      multiline: false
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    typeConfig:
+      multiline: true
+      linesCount: 5
+    localizable: true
+  - id: messageAnonymous
+    name: Message Anonymous
+    type: text
+    typeConfig:
+      multiline: true
+      linesCount: 5
+    localizable: true
+  - id: messageUsers
+    name: Message Users
+    type: text
+    typeConfig:
+      multiline: true
+      linesCount: 5
+    localizable: true
+  - id: messageDefault
+    name: Message Default
+    type: text
+    typeConfig:
+      multiline: true
+      linesCount: 5
+    localizable: true
+useTeamPermissions: true
+slots: []
+titleParameter: title
+canBeComposition: false
+created: '2025-11-06T12:14:02.463992+00:00'
+updated: '2025-11-06T12:14:02.463992+00:00'

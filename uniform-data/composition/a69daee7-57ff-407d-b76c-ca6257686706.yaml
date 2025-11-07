@@ -1,0 +1,57 @@
+composition:
+  _name: Override Protected
+  _id: a69daee7-57ff-407d-b76c-ca6257686706
+  _slug: override-protected
+  type: page
+  parameters:
+    accessType:
+      type: select
+      value: users
+  slots:
+    footer:
+      - _id: dbd91593-2688-49a4-b63c-19157ed5b327
+        type: footer
+    header:
+      - _id: 6ec86019-8266-41b3-8112-40c1149bb2b5
+        type: header
+    content:
+      - _id: 214a9106-7198-43b1-8f6d-93d8ffb4cf22
+        type: hero
+        parameters:
+          title:
+            type: text
+            locales:
+              en: Authenticated Only page
+          description:
+            type: richText
+            locales:
+              en:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            This page has a composition-level security override
+                            for authenticated users only.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                      textStyle: ''
+                      textFormat: 0
+                  direction: ltr
+  _locales:
+    - en
+created: '2025-11-06T11:45:01.94677+00:00'
+modified: '2025-11-06T11:46:35.632058+00:00'
+pattern: false

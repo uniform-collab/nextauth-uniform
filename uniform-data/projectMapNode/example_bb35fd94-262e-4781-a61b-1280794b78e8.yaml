@@ -1,0 +1,9 @@
+id: bb35fd94-262e-4781-a61b-1280794b78e8
+name: Example
+order: 500
+path: /:locale/cms-protected/example
+type: composition
+pathSegment: example
+data: {}
+compositionId: cbf908a5-1da2-438d-8635-9cf757b6ffa5
+projectMapId: 6b47f572-7ff6-47c0-9890-0492a52eac7a

@@ -1,0 +1,9 @@
+id: 0c9b6d4b-0a38-4556-84f6-cdc360562dff
+name: Access-Denied
+order: 500
+path: /:locale/access-denied
+type: composition
+pathSegment: access-denied
+data: {}
+compositionId: 2c979ec5-684b-453f-9ca0-65a3b0c7a5bb
+projectMapId: 6b47f572-7ff6-47c0-9890-0492a52eac7a

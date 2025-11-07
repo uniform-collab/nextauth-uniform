@@ -1,0 +1,50 @@
+composition:
+  _name: Home
+  _id: 0bd83ed6-f6b7-4d67-b8ee-634dbc31b499
+  _slug: /root
+  type: page
+  slots:
+    content:
+      - _id: 00528964-3c05-4d45-b4e2-4bb088bf54ae
+        type: hero
+        parameters:
+          title:
+            type: text
+            locales:
+              en: Welcome to the Root Homepage
+          accessType:
+            type: select
+            value: everyone
+          description:
+            type: richText
+            locales:
+              en:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            This is a minimal root homepage demonstrating basic Uniform Canvas integration
+                            without authentication requirements. Perfect for getting started with the basics.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                      textStyle: ''
+                      textFormat: 0
+                  direction: ltr
+  _locales:
+    - en
+created: '2025-11-04T16:27:40.221893+00:00'
+modified: '2025-11-04T16:27:53.684378+00:00'
+pattern: false

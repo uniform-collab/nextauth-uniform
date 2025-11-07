@@ -1,0 +1,60 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: hero
+name: Hero
+icon: image-text
+parameters:
+  - id: title
+    name: Title
+    type: text
+    typeConfig:
+      required: true
+    localizable: true
+  - id: description
+    name: Description
+    type: richText
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+    localizable: true
+  - id: accessType
+    name: Access Type
+    type: select
+    typeConfig:
+      editor: select
+      options:
+        - text: Anonymous Only
+          value: anonymous
+        - text: Authenticated Users
+          value: users
+        - text: Everyone
+          value: everyone
+      required: false
+useTeamPermissions: true
+slots: []
+titleParameter: title
+canBeComposition: false
+created: '2025-10-24T09:22:03.409464+00:00'
+updated: '2025-11-04T18:30:00.689847+00:00'

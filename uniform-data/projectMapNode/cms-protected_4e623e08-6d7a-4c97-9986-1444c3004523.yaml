@@ -1,0 +1,9 @@
+id: 4e623e08-6d7a-4c97-9986-1444c3004523
+name: CMS Protected
+order: 500
+path: /:locale/cms-protected
+type: composition
+pathSegment: cms-protected
+data: {}
+compositionId: d440bcba-71fa-4f26-87d4-89dc61f06e28
+projectMapId: 6b47f572-7ff6-47c0-9890-0492a52eac7a

@@ -1,0 +1,54 @@
+# yaml-language-server: $schema=https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://eu.uniform.app/schemas/json-schema/component-definition/v1.json
+id: page
+name: Page
+icon: file-document
+parameters:
+  - id: accessType
+    name: Access Type
+    type: select
+    typeConfig:
+      editor: select
+      options:
+        - text: Anonymous Only
+          value: anonymous
+        - text: Authenticated Users
+          value: users
+        - text: Everyone
+          value: everyone
+      required: false
+useTeamPermissions: true
+slots:
+  - id: header
+    name: Header
+    maxComponents: 1
+    allowedComponents:
+      - header
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+  - id: content
+    name: Content
+    allowedComponents:
+      - hero
+      - $personalization
+      - $test
+      - $localization
+      - accessDenied
+    inheritAllowedComponents: false
+  - id: footer
+    name: Footer
+    maxComponents: 1
+    allowedComponents:
+      - footer
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+slugSettings:
+  unique: global
+  required: 'yes'
+  regularExpression: ''
+  regularExpressionMessage: ''
+canBeComposition: true
+created: '2025-10-24T09:22:02.054003+00:00'
+updated: '2025-11-06T12:14:10.468459+00:00'

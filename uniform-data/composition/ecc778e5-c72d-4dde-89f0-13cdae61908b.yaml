@@ -1,0 +1,57 @@
+composition:
+  _name: Override Anonymous Only
+  _id: ecc778e5-c72d-4dde-89f0-13cdae61908b
+  _slug: override-anonymous-only
+  type: page
+  parameters:
+    accessType:
+      type: select
+      value: anonymous
+  slots:
+    footer:
+      - _id: 972a6e8a-5f1e-4ad2-8368-ae1e6b6f945b
+        type: footer
+    header:
+      - _id: 8ea322c8-46e5-4a7a-895e-86b5c8f34b31
+        type: header
+    content:
+      - _id: fad65830-eec2-463d-8425-4e0047613ad8
+        type: hero
+        parameters:
+          title:
+            type: text
+            locales:
+              en: Anonymous Only page
+          description:
+            type: richText
+            locales:
+              en:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            This page has a composition-level security override
+                            for anonymous visitors only.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                      textStyle: ''
+                      textFormat: 0
+                  direction: ltr
+  _locales:
+    - en
+created: '2025-11-06T11:47:33.820604+00:00'
+modified: '2025-11-06T11:48:01.902386+00:00'
+pattern: false

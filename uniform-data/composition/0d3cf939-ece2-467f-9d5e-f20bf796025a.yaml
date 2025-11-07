@@ -1,0 +1,58 @@
+composition:
+  _name: Example
+  _id: 0d3cf939-ece2-467f-9d5e-f20bf796025a
+  _slug: example
+  type: page
+  slots:
+    footer:
+      - _id: 286637d4-ec70-44be-aab0-ed97c24a68c5
+        type: footer
+    header:
+      - _id: 180516d4-f706-4c1e-88b6-48979dd13c9f
+        type: header
+    content:
+      - _id: 61bcee81-062e-49bd-b094-45624b3cdfcd
+        type: hero
+        parameters:
+          title:
+            type: text
+            locales:
+              en: CMS Example
+          accessType:
+            type: select
+            value: everyone
+          description:
+            type: richText
+            locales:
+              en:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            An example CMS page showing how nested routes work
+                            (cms/example). This page is publicly accessible and
+                            demonstrates the flexibility of Uniform's routing
+                            and content management.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                      textStyle: ''
+                      textFormat: 0
+                  direction: ltr
+  _locales:
+    - en
+created: '2025-10-24T09:34:15.056876+00:00'
+modified: '2025-11-04T19:01:27.804679+00:00'
+pattern: false

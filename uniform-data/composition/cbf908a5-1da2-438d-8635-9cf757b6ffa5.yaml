@@ -1,0 +1,59 @@
+composition:
+  _name: Example
+  _id: cbf908a5-1da2-438d-8635-9cf757b6ffa5
+  _slug: example2
+  type: page
+  slots:
+    footer:
+      - _id: 9c4fc2b7-3a20-4ff2-b026-9e9b7c2d4c4e
+        type: footer
+    header:
+      - _id: 77a1605a-fca8-4826-86c4-5e95caa6ec8b
+        type: header
+    content:
+      - _id: 8f270dc7-892d-404a-9437-10988d63e809
+        type: hero
+        parameters:
+          title:
+            type: text
+            locales:
+              en: CMS Protected Example
+          accessType:
+            type: select
+            value: everyone
+          description:
+            type: richText
+            locales:
+              en:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            This is a nested page within the protected CMS area
+                            (cms-protected/example). You must be logged in to
+                            view this page. It demonstrates how authentication
+                            applies to an entire route segment including all
+                            child pages.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                      textStyle: ''
+                      textFormat: 0
+                  direction: ltr
+  _locales:
+    - en
+created: '2025-10-24T09:23:30.789235+00:00'
+modified: '2025-11-04T19:01:02.653156+00:00'
+pattern: false

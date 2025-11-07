@@ -1,0 +1,9 @@
+id: c3efd953-170a-4032-951d-17d3c568b68c
+name: Override Protected
+order: 500
+path: /:locale/cms/override-protected
+type: composition
+pathSegment: override-protected
+data: {}
+compositionId: a69daee7-57ff-407d-b76c-ca6257686706
+projectMapId: 6b47f572-7ff6-47c0-9890-0492a52eac7a

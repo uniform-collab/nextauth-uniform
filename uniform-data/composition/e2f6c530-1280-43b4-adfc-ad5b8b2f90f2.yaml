@@ -1,0 +1,138 @@
+composition:
+  _name: Home
+  _id: e2f6c530-1280-43b4-adfc-ad5b8b2f90f2
+  _slug: /h
+  type: page
+  slots:
+    footer:
+      - _id: 50b07cce-ad18-4133-a13b-30d64b5a8253
+        type: footer
+    header:
+      - _id: a6d8a158-e90a-4203-a0ff-2f5153b78d08
+        type: header
+    content:
+      - _id: bd435557-3e2f-4d11-a182-8f3a870df318
+        type: hero
+        parameters:
+          title:
+            type: text
+            locales:
+              en: Homepage - everyone
+          accessType:
+            type: select
+            value: everyone
+          description:
+            type: richText
+            locales:
+              en:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            This hero is visible to all visitors, whether they
+                            are logged in or not. It demonstrates the "everyone"
+                            access level for public homepage content.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                      textStyle: ''
+                      textFormat: 0
+                  direction: ltr
+      - _id: 621e7aa7-d5ce-469d-830a-a3c1831b11e7
+        type: hero
+        parameters:
+          title:
+            type: text
+            locales:
+              en: Homepage - anonymous
+          accessType:
+            type: select
+            value: anonymous
+          description:
+            type: richText
+            locales:
+              en:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            This hero is only visible to anonymous
+                            (non-logged-in) users. Perfect for showing
+                            promotional content or encouraging sign-ups. Once
+                            you log in, this hero will be replaced by the
+                            "users" hero.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                      textStyle: ''
+                      textFormat: 0
+                  direction: ltr
+      - _id: 27d36a91-d904-49ab-a023-4fb7c6fceff1
+        type: hero
+        parameters:
+          title:
+            type: text
+            locales:
+              en: Homepage - users
+          accessType:
+            type: select
+            value: users
+          description:
+            type: richText
+            locales:
+              en:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            This hero is only visible to authenticated
+                            (logged-in) users. Great for personalized welcome
+                            messages or user-specific content. Anonymous
+                            visitors will see the "anonymous" hero instead.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                      textStyle: ''
+                      textFormat: 0
+                  direction: ltr
+  _locales:
+    - en
+created: '2025-10-24T09:22:35.80786+00:00'
+modified: '2025-11-04T19:02:08.377986+00:00'
+pattern: false

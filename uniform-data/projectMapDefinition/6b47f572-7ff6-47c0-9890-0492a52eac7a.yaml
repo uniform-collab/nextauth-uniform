@@ -1,0 +1,4 @@
+id: 6b47f572-7ff6-47c0-9890-0492a52eac7a
+name: Next Auth Example's Project map
+baseUrl: http://localhost:3000
+default: true

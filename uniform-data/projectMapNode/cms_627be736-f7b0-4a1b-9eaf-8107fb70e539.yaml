@@ -1,0 +1,9 @@
+id: 627be736-f7b0-4a1b-9eaf-8107fb70e539
+name: CMS
+order: 500
+path: /:locale/cms
+type: composition
+pathSegment: cms
+data: {}
+compositionId: 3a90399d-5af5-4e96-83cd-488ecd4c2e32
+projectMapId: 6b47f572-7ff6-47c0-9890-0492a52eac7a

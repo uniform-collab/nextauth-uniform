@@ -1,0 +1,51 @@
+composition:
+  _name: Access-Denied
+  _id: 2c979ec5-684b-453f-9ca0-65a3b0c7a5bb
+  _slug: access-denied
+  type: page
+  parameters:
+    accessType:
+      type: select
+      value: everyone
+  slots:
+    footer:
+      - _id: 46cf6b95-c9c1-4dc8-ad46-95423badc3c9
+        type: footer
+    header:
+      - _id: e29bd69d-92f4-4a0f-b297-88e201deefc9
+        type: header
+    content:
+      - _id: 3bac964a-721a-4985-824f-5bed6e13644b
+        type: accessDenied
+        parameters:
+          title:
+            type: text
+            locales:
+              en: Access Denied
+          description:
+            type: text
+            locales:
+              en: You don't have the necessary permissions to view this page
+          messageUsers:
+            type: text
+            locales:
+              en: >-
+                This content is only available to authenticated users. Please
+                sign in to continue.
+          messageDefault:
+            type: text
+            locales:
+              en: >-
+                This content requires you to be signed in. Please log in to your
+                account to continue.
+          messageAnonymous:
+            type: text
+            locales:
+              en: >-
+                This content is only available to visitors who are not logged
+                in. Please sign out to view this page.
+  _locales:
+    - en
+created: '2025-11-06T11:54:05.741462+00:00'
+modified: '2025-11-06T12:16:14.316116+00:00'
+pattern: false

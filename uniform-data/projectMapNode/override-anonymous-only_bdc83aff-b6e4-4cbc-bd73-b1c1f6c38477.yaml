@@ -1,0 +1,9 @@
+id: bdc83aff-b6e4-4cbc-bd73-b1c1f6c38477
+name: Override Anonymous Only
+order: 500
+path: /:locale/cms/override-anonymous-only
+type: composition
+pathSegment: override-anonymous-only
+data: {}
+compositionId: ecc778e5-c72d-4dde-89f0-13cdae61908b
+projectMapId: 6b47f572-7ff6-47c0-9890-0492a52eac7a

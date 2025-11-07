@@ -1,0 +1,132 @@
+composition:
+  _name: CMS Protected
+  _id: d440bcba-71fa-4f26-87d4-89dc61f06e28
+  _slug: cms-protected
+  type: page
+  slots:
+    footer:
+      - _id: 989d89bc-f527-4b25-b6aa-c24c9f2d86d2
+        type: footer
+    header:
+      - _id: 5d7b0a37-32c6-4bed-b225-233cf1f9409b
+        type: header
+    content:
+      - _id: 906d011f-fd2c-4306-8f5c-3b29a27b42ab
+        type: hero
+        parameters:
+          title:
+            type: text
+            locales:
+              en: CMS Protected - anonymous
+          accessType:
+            type: select
+            value: anonymous
+          description:
+            type: richText
+            locales:
+              en:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            This component will not actually be rendered,
+                            because anonymous users cannot access this area of
+                            the project.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                      textStyle: ''
+                      textFormat: 0
+                  direction: ltr
+      - _id: 2d2045e8-3b56-40a0-9c5f-2aea53271b4b
+        type: hero
+        parameters:
+          title:
+            type: text
+            locales:
+              en: CMS Protected - users
+          accessType:
+            type: select
+            value: users
+          description:
+            type: richText
+            locales:
+              en:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            This hero is only visible to authenticated users on this protected CMS page.
+                            The entire /cms-protected area requires login, and this hero reinforces that
+                            with targeted messaging for logged-in users only.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                      textStyle: ''
+                      textFormat: 0
+                  direction: ltr
+      - _id: a03e5ba2-ecf9-4689-8dd4-8e985c81ed4b
+        type: hero
+        parameters:
+          title:
+            type: text
+            locales:
+              en: CMS Protected
+          description:
+            type: richText
+            locales:
+              en:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            This hero demonstrates default behavior with no access type specified.
+                            It defaults to "everyone" and will be visible to all users who can access
+                            this protected page (i.e., authenticated users only).
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                      textStyle: ''
+                      textFormat: 0
+                  direction: ltr
+  _locales:
+    - en
+created: '2025-10-24T09:23:24.281313+00:00'
+modified: '2025-11-04T18:43:51.622871+00:00'
+pattern: false

@@ -1,0 +1,97 @@
+composition:
+  _name: CMS
+  _id: 3a90399d-5af5-4e96-83cd-488ecd4c2e32
+  _slug: cms
+  type: page
+  slots:
+    footer:
+      - _id: 17607ef5-aaed-4ad4-88d0-07a09570c26b
+        type: footer
+    header:
+      - _id: ee392430-51b3-441d-b013-ded59a87f889
+        type: header
+    content:
+      - _id: 3ec9493d-76ba-4d08-89a6-85a56506dae3
+        type: hero
+        parameters:
+          title:
+            type: text
+            locales:
+              en: CMS
+          accessType:
+            type: select
+            value: everyone
+          description:
+            type: richText
+            locales:
+              en:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            This is the main CMS landing page. It's publicly
+                            accessible and demonstrates how Uniform Canvas
+                            manages content for regular (non-protected) pages.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                      textStyle: ''
+                      textFormat: 0
+                  direction: ltr
+      - _id: 69f13dfa-51e1-4e3c-ac1c-f28c2aecfdd7
+        type: hero
+        parameters:
+          title:
+            type: text
+            locales:
+              en: CMS - users
+          accessType:
+            type: select
+            value: users
+          description:
+            type: richText
+            locales:
+              en:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            Welcome back! This targeted version of the CMS
+                            landing page is only visible to authenticated users.
+                            It demonstrates how you can show different content
+                            based on user login status.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                      textStyle: ''
+                      textFormat: 0
+                  direction: ltr
+  _locales:
+    - en
+created: '2025-10-24T09:33:41.58768+00:00'
+modified: '2025-11-04T19:05:16.61619+00:00'
+pattern: false
